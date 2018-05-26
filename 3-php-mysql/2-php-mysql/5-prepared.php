@@ -13,8 +13,7 @@ echo "<h1>5. PREPARED</h1>";
  *
  */
 
-/*
- * SUGGESTION :
+
 require './helper.php';
 $conn = connectDatabase();
 
@@ -31,6 +30,6 @@ echo "Using Prepared to insert new data successfully";
 
 $stmt->close();
 $conn->close();
- */
+ 
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";

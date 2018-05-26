@@ -13,8 +13,7 @@ echo "<h1>3. CREATE TABLE</h1>";
  *
  */
 
-/*
- * SUGGESTION :
+
 require './helper.php';
 $conn = connectDatabase();
 
@@ -36,6 +35,6 @@ echo "Error creating table : " . $conn->error;
 }
 
 $conn->close();
- */
+ 
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";

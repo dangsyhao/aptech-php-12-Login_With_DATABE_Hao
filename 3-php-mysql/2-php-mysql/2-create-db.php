@@ -13,18 +13,17 @@ echo "<h1>2. CREATE DATABASE</h1>";
  *
  */
 
-/*
- * SUGGESTION :
+
 require './helper.php';
 $conn = connectDatabase();
 
-$sql = "CREATE DATABASE namnh_news";
+$sql = "CREATE DATABASE namnh_news;";
 if ($conn->query($sql) === true) {
 echo "Database created successfully";
 } else {
 echo "Error creating database : " . $conn->error;
 }
 $conn->close();
- */
+
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";

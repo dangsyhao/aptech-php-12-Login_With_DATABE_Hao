@@ -13,8 +13,7 @@ echo "<h1>4. INSERT DATA</h1>";
  *
  */
 
-/*
- * SUGGESTION :
+
 require './helper.php';
 $conn = connectDatabase();
 $sql = "INSERT INTO namnh_news.nnUser (uLastName,uFirstName,uEmail,uRole)
@@ -32,6 +31,6 @@ echo "Error creating table : " . $conn->error;
 }
 
 $conn->close();
- */
+ 
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";

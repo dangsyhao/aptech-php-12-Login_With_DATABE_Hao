@@ -13,19 +13,18 @@ echo "<h1>1. CONNECT DATABASE</h1>";
  *
  */
 
-/*
- * SUGGESTION :
+
 $serverName = "localhost";
 $userName = "root";
-$password = "123456";
+$password = "";
 
 $conn = mysqli_connect($serverName, $userName, $password);
 
 if (!$conn) {
 die("Connection failed : " . mysqli_connect_error());
 }
-echo "Connected successfully";
+echo "Connected successfully -Ket noi thanh cong !";
 $conn->close();
- */
+ 
 
-echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
+//echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
